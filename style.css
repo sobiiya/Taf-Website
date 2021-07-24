@@ -1,0 +1,871 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* -------HEADER------*/
+
+header {
+    position: fixed !important;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.contact-info {
+    font-size: 80%;
+    padding-top: 5px;
+    color: rgb(82, 76, 76);
+}
+
+.icon-contact {
+    padding-top: 5px;
+}
+
+.contact-no {
+    color: rgb(243, 85, 85);
+    font-weight: 500;
+}
+
+.contact-desc {
+    font-size: 80%;
+    color: rgb(82, 76, 76);
+    padding-top: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.contact-desc:hover {
+    border-bottom: none;
+    color: rgb(243, 85, 85);
+    text-decoration: none;
+}
+
+
+/* -------NAV BAR------*/
+
+.nav-logo {
+    width: 200px;
+    height: auto;
+}
+
+.nav-icon {
+    font-size: 140%;
+    color: rgb(82, 76, 76);
+    margin-right: 7px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.adjust {
+    /* position: fixed !important;
+
+     width: 100%;
+     background-color:#fff; */
+    border-top: 1px solid rgb(82, 76, 76);
+    font-family: 'Merriweather', serif;
+}
+
+.adjust a {
+    font-size: 80% !important;
+}
+
+.adjust a:hover {
+    color: rgb(243, 85, 85) !important;
+}
+
+
+/* -------MAIN------*/
+
+.main,
+.chilli-info,
+.form,
+.heads,
+.home-product {
+    background-image: url("img/main-img.jpeg");
+}
+
+.main h3 {
+    color: #fff;
+    z-index: -3 !important;
+    width: 300px;
+}
+
+.main .btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 3px 30px !important;
+    border: 2px solid rgb(243, 85, 85);
+}
+
+.main .btn:hover {
+    background-color: transparent !important;
+    border: 2px solid rgb(243, 85, 85);
+}
+
+.main-heading {
+    margin-top: 250px !important;
+    margin-bottom: 60px !important;
+    padding-left: 400px !important;
+}
+
+.img-1 {
+    width: 300px;
+    height: auto;
+    margin-top: 280px;
+}
+
+.info {
+    width: 90%;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+.service-info {
+    color: #fff;
+    /* padding-left: 60px !important; */
+    padding-right: 0px !important;
+    border-top: 1px solid #fff;
+}
+
+.service-info img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.service-info p {
+    display: inline-block;
+    width: 68%;
+    margin-top: 30px;
+}
+
+.line-1 {
+    font-size: 80% !important;
+}
+
+
+/* -------SECTION-ABOUT------*/
+
+.agri-image img {
+    width: 70%;
+    height: auto;
+    margin: 10% 15%;
+}
+
+.agri-about h2 {
+    margin-top: 10%;
+}
+
+.agri-about p {
+    color: rgb(131, 84, 84);
+    margin-right: 7%;
+}
+
+.para,
+.para-2 {
+    font-size: 80%;
+}
+
+.btn-about {
+    background-color: rgb(235, 182, 67) !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    margin-top: 50px;
+}
+
+.btn-about:hover {
+    background-color: transparent !important;
+    border: 1px solid rgb(235, 182, 67) !important;
+    color: rgb(235, 182, 67) !important;
+}
+
+.agri-about-1 h1,
+p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-deck {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-top: 80px;
+}
+
+.card {
+    border: none !important;
+    text-align: center;
+    margin-bottom: 10% !important;
+}
+
+.card i {
+    font-size: 300%;
+}
+
+.card h5 {
+    color: rgb(235, 182, 67) !important;
+}
+
+.card p {
+    color: rgb(131, 84, 84);
+    font-size: 80%;
+}
+
+
+/* -------SECTION-DESCRIPTION------*/
+
+.description {
+    margin-left: 10%;
+}
+
+.description h1 {
+    font-weight: 700;
+}
+
+.description p {
+    text-align: left;
+    color: rgb(177, 152, 152);
+    width: 75%;
+}
+
+.test {
+    border-radius: 20px !important;
+    margin-top: 20px;
+    padding: 3px 30px !important;
+    border: 2px solid rgb(243, 85, 85) !important;
+    background-color: rgb(243, 85, 85) !important;
+    color: #fff !important;
+    margin-bottom: 10% !important;
+}
+
+.test:hover {
+    background-color: transparent !important;
+    border: 2px solid rgb(243, 85, 85);
+    color: rgb(243, 85, 85) !important;
+}
+
+.award-img {
+    margin-top: 40px;
+    width: 80%;
+    height: auto;
+}
+
+
+/* -------SECTION- PRODUCT-----*/
+
+.home-product h2 {
+    padding-top: 60px !important;
+    color: #fff;
+    text-align: center;
+}
+
+.home-product p {
+    color: rgb(197, 192, 192);
+}
+
+.product-tab {
+    margin-left: 35%;
+    margin-top: 30px;
+    margin-bottom: 50px !important;
+    margin-right: 20px;
+    border-bottom: none !important;
+    color: rgb(243, 85, 85);
+}
+
+.product-tab a,
+.product-tab a:hover {
+    color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+}
+
+
+/* -------SECTION-CHILLI-INFO------*/
+
+.chilli-img {
+    width: 80%;
+    height: auto;
+    margin-top: 20%;
+}
+
+.chilli-enquery h5 {
+    color: rgb(243, 85, 85);
+    margin-top: 20%;
+}
+
+.chilli-enquery h1 {
+    color: #fff;
+}
+
+.chilli-enquery p {
+    text-align: left;
+    color: rgb(197, 192, 192);
+    margin-top: 10%;
+}
+
+
+/* -------SECTION-COUNTER------*/
+
+.counter {
+    text-align: center;
+    font-size: 100px;
+}
+
+.customer {
+    color: rgb(120, 243, 120);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.customer-1 {
+    color: rgb(248, 115, 115);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.customer-2 {
+    color: rgb(238, 238, 110);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.customer-3 {
+    color: rgb(71, 176, 224);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counters {
+    padding-top: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.last-line {
+    color: rgb(201, 186, 186);
+    padding-top: 70px;
+    font-size: 80%;
+}
+
+
+/* -------SECTION-FORM------*/
+
+.form {
+    padding-bottom: 50px !important;
+}
+
+.form-desc {
+    padding-top: 20%;
+}
+
+.icon-info {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.icon-info p {
+    color: #fff;
+    width: 70%;
+    display: inline-block;
+    text-align: left;
+    font-size: 90%;
+    vertical-align: center;
+}
+
+.icon-info i {
+    font-size: 160%;
+    background-color: rgb(235, 182, 67);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    /* margin-top: 7px; */
+    /* padding:8px 5px 7px 7px  !important; */
+}
+
+
+/* .enquiry{
+    margin-right: 30px;
+} */
+
+.enquiry h1 {
+    color: #fff;
+}
+
+.enquiry p {
+    color: rgb(197, 192, 192);
+    text-align: left;
+    margin-bottom: 50px;
+    border-radius: 0% !important;
+}
+
+.enquiry input {
+    margin-top: 20px;
+}
+
+.enquiry textarea {
+    margin-top: 20px;
+}
+
+.btn-submit {
+    padding-right: 40px;
+}
+
+
+/* -------SECTION BRAND-INFO------*/
+
+.brand-info h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.brand {
+    width: 250px;
+    height: 250px;
+}
+
+.brand-info {
+    margin-bottom: 40px;
+}
+
+
+/* -------FOOTER------*/
+
+footer {
+    background-color: rgb(49, 47, 47);
+    padding-top: 60px;
+}
+
+.email-info {
+    color: rgba(255, 255, 255, 0.768);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-info .email-tab {
+    width: 260px !important;
+    display: inline;
+}
+
+.email-info p {
+    text-align: left;
+    font-size: 80%;
+    margin-bottom: 5px !important;
+}
+
+.email-info h1 {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.btn-join {
+    padding-top: 3 !important;
+    padding-bottom: 2px !important;
+    margin-left: 0 !important;
+}
+
+
+/*-----  CSS RESET  ------*/
+
+img {
+    max-width: 100%;
+    /* this ensures images never break their container */
+}
+
+.bg-image {
+    /* background-image: url('http://www.instituteofcode.com/houdini.jpg'); */
+    width: 60px !important;
+    background-size: cover;
+    /* background-position: center; */
+    min-height: 60px;
+    padding: 15px 15px;
+    margin-right: 5px;
+}
+
+.gallery-image {
+    float: right;
+}
+
+.gallery-image-2 {
+    margin-top: 10px;
+    margin-left: 50% !important;
+}
+
+.gallery-heading {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.672);
+}
+
+.footer-info {
+    padding-bottom: 80px;
+}
+
+.copy-right {
+    background-color: rgba(9, 8, 8, 0.741);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.copy-right img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.copy-right p {
+    display: inline-block;
+    margin-left: 600px;
+    font-size: 80%;
+    color: rgba(255, 255, 255, 0.816);
+}
+
+.angle-up a {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    font-size: 200%;
+    background-color: rgba(238, 134, 134, 0.844);
+    padding-left: 17px;
+    padding-bottom: 14px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+}
+
+.angle-up a:hover {
+    background-color: rgb(230, 89, 89);
+    color: rgb(247, 246, 246);
+}
+
+
+/* -------ABOUT------*/
+
+.heads {
+    background-image: url("img/main-img.jpeg");
+    padding-top: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.heading2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+    /* padding-top: 100px; */
+}
+
+.beef-11 {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: 46%;
+    margin-top: 45px;
+    opacity: 1;
+}
+
+.agri-about p {
+    text-align: left;
+}
+
+.star-icon {
+    margin-top: 60px;
+    font-size: 40% !important;
+}
+
+
+/* -------CONTACT US------*/
+
+.login-div h3 {
+    font-family: 'Signika', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.login-div {
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+.form-1 {
+    border: 1px solid rgba(255, 255, 255, 0.871) !important;
+}
+
+
+/* #exampleInputEmail1{
+    padding-right: 100px !important;
+} */
+
+.contact-description {
+    background-image: url("img/main-img1.jpg");
+}
+
+.contact-div {
+    padding-top: 60px;
+}
+
+.contact-div p {
+    font-size: 120%;
+    width: 80%;
+}
+
+.map-location h3 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.map {
+    margin-top: 50px;
+}
+
+
+/* -------OUR BRAND------*/
+
+.brand-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.brand-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+/* -------PRODUCT LIST------*/
+
+.list {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.list a {
+    color: #000;
+    text-decoration: none;
+    font-size: 120%;
+    margin-right: 20px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Goldman', cursive;
+    font-family: 'Signika', sans-serif;
+}
+
+.list a:hover {
+    text-decoration: none;
+    color: rgb(243, 85, 85);
+}
+
+.card {
+    margin-left: 40px !important;
+}
+
+.img-chilli {
+    margin-bottom: 40px;
+    transition: .6s;
+}
+
+.img-chilli:hover {
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+.card-body a:hover {
+    text-decoration: none !important;
+    /* border-bottom: none !important; */
+}
+
+
+/* -------PRODUCT DETAILS------*/
+
+.meat-img {
+    width: 60%;
+    height: auto;
+}
+
+.meat-detail {
+    margin-top: 80px;
+    padding-left: 30px;
+}
+
+.meat-detail p {
+    text-align: left;
+}
+
+.review {
+    color: rgb(243, 85, 85);
+    border: 1px solid grey;
+    padding: 8px 20px !important;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 0;
+    display: inline-block;
+    border-bottom: none;
+    /* position: relative;
+    z-index: 99; */
+}
+
+.form-view {
+    padding: 0 60px;
+    border: 2px solid rgb(158, 156, 156) !important;
+    color: rgb(158, 156, 156);
+    position: relative;
+    top: -5;
+    /* margin-top: -10px; */
+    /* z-index: -1; */
+}
+
+.rating p {
+    text-align: left;
+    display: inline-block;
+}
+
+.review-box p {
+    text-align: left;
+}
+
+.rating-wrapper {
+    top: 15%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 70px;
+    width: 175px;
+    height: 65px;
+    background: #fff;
+    padding: 20px 60px;
+}
+
+.rating {
+    direction: rtl;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    /* flex-direction: row; */
+    font-size: 30px;
+    margin: 0 !important;
+}
+
+.rating>.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    /* display: inline-block; */
+    /* position: relative; */
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.rating>.star:before {
+    content: '\f006';
+}
+
+.rating>.star:hover:before,
+.rating>.star:hover~.star:before,
+.rating>.star.selected:before,
+.rating>.star.selected~.star:before {
+    color: goldenrod;
+    content: '\f005';
+}
+
+.btn-review-submit {
+    margin-left: 48%;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border-radius: 50px !important;
+}
+
+.btn-review-submit:hover {
+    border: 1px solid rgb(243, 85, 85) !important;
+    color: rgb(243, 85, 85) !important;
+    background-color: #fff !important;
+}
+
+.section-review {
+    margin-bottom: 100px;
+}
+
+.star-2 {
+    width: 180px;
+    height: auto;
+}
+
+.h2tag {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.review-type {
+    color: rgb(158, 156, 156);
+}
+
+.detail-tabs {
+    margin-top: 100px !important;
+}
+
+.detail-nav {
+    display: block;
+    width: 100%;
+}
+
+.tabs-contant {
+    margin-top: 30px !important;
+    color: rgb(158, 156, 156);
+}
+
+.tabs-contant p {
+    text-align: left;
+}
+
+.tabs-contant ul {
+    color: rgb(158, 156, 156);
+    margin-left: 30px;
+}
+
+.table {
+    color: rgb(158, 156, 156) !important;
+}
+
+.form-view-chilli {
+    border: none !important;
+    margin-bottom: 30px;
+}
+
+.slider {
+    width: 50% !important;
+    margin-top: 30px;
+}
+
+
+/* -------OUR TEAM------*/
+
+.team {
+    text-align: left;
+    color: rgb(158, 156, 156);
+    margin-top: 50px;
+}
